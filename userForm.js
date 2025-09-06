@@ -1,0 +1,17 @@
+// const http = require('http')
+
+// const userForm = require('./userForm');
+// http.createServer((req,res)=> {
+//     userForm(req,res)
+//     res.end
+// }).listen(3200)
+function userForm(req, res) {
+    res.write(`
+    <form action="/submit" method="post">
+        <input type="text" placeholder="enter name" name='name' />
+        <input type="text" placeholder="enter email" name='email' ; />
+        <button> Submit </button>
+    </form>
+        `)
+}
+module.exports = userForm;

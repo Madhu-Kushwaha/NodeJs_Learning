@@ -1,0 +1,63 @@
+What are modules and type??
+
+What are core modules?
+
+What are global objects
+
+Interview Question
+
+Notes, code and playlist
+
+Feature	Browser JS Console	Node.js Console
+Environment	Runs inside a web browser (Chrome, Firefox, etc.)	Runs in terminal/command prompt
+Global Object	window	global
+DOM Access	✅ Has access (document, window, localStorage, etc.)	❌ No DOM access
+APIs Available	Browser APIs like fetch, alert, localStorage	Node APIs like fs, http, path, process
+Modules	Uses ES Modules (import)	Uses CommonJS (require) + ES Modules
+Process Object	❌ Not available	✅ process gives info about Node and OS
+Console Output	Can show styled logs, clickable DOM elements	Plain text logs in terminal
+Use Case	Debugging web apps, frontend testing	Running backend code, file system, servers
+
+👉 Shortcut to remember:
+
+Browser console = Frontend playground (DOM + Web APIs).
+
+Node console = Backend playground (OS + Files + Servers).
+
+///Interview response 
+// How to end req and response
+// which package is used for import line
+//what is external package
+
+// How to install external package
+
+//Example for use external package
+
+//what is package.json
+
+
+what are modules?
+
+Core Modules - which is already present 
+Third Party Modules/External Modules- which is installed externally.
+Custom Modules - which we created our own 
+
+///Make Simple APIs
+
+Define static API Data
+Use this data in server response
+Check API data
+Test API with thunder client
+
+// Understand client request
+
+what is client request
+write code to access client request
+Make pages with client request
+
+////Get input from CMD in node js
+
+what is getting input from CMD
+Write code for get input 
+
+Example, where u can use this case

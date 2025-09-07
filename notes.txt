@@ -41,6 +41,8 @@ what are modules?
 Core Modules - which is already present 
 Third Party Modules/External Modules- which is installed externally.
 Custom Modules - which we created our own 
+path modules - In node js Path module is a built-in core module that provides utilities for working with file and directory paths.
+Global constants: - In Node.js a gloabal constant is a value that is always available in your code without requiring a import or declartion.
 
 ///Make Simple APIs
 
@@ -61,3 +63,6 @@ what is getting input from CMD
 Write code for get input 
 
 Example, where u can use this case
+
+
+// Express
